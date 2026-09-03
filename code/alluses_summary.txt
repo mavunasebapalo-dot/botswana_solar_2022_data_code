@@ -1,0 +1,12 @@
+Cooking: I=0.1589, p=0.0252, z=2.4572
+  Hot: ['Ngamiland East', 'Ngamiland West', 'Delta', 'Ghanzi']
+  Cold: ['Francistown', 'Southern', 'Barolong', 'Central Boteti', 'North East']
+Heating space: I=0.0906, p=0.0375, z=2.0196
+  Hot: ['Ngamiland East', 'Ngamiland West', 'Chobe', 'CKGR']
+  Cold: ['Francistown', 'Central Bobonong', 'Central Tutume', 'North East']
+Heating water: I=0.1263, p=0.0389, z=2.1099
+  Hot: ['Ngamiland East', 'Ngamiland West', 'CKGR']
+  Cold: []
+
+Consistent hotspots (>=2/3): ['Ngamiland East', 'Ngamiland West', 'CKGR']
+Consistent coldspots (>=2/3): ['Francistown', 'North East']

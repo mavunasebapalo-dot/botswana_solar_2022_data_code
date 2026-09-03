@@ -1,0 +1,41 @@
+N = 28
+Global Moran's I = 0.1589 (E[I]=-0.0370), p_sim=0.0252, z_sim=2.4572
+McFadden pseudo-R2 (binomial GLM) = 0.2069
+RF: R2=0.526, RMSE=43.4, MAE=25.7
+Linear: R2=0.806, RMSE=27.8, MAE=19.0
+Feature importances:
+Total_Households    0.922391
+Longitude           0.058206
+Latitude            0.018021
+Urban               0.001383
+
+Hotspot classification:
+              District  Solar_Cooking_Pct  Gi_zscore  Gi_pvalue   Hotspot_class
+        Ngamiland East                0.3   1.264625     0.0067        Hot spot
+        Ngamiland West                0.3   1.264625     0.0067        Hot spot
+                Ghanzi                0.5   1.233347     0.0082        Hot spot
+                 Delta                1.6   1.142115     0.0089        Hot spot
+       Kgalagadi North                0.2   0.528257     0.1475 Not significant
+                 Chobe                0.3   0.417057     0.2034 Not significant
+                 Orapa                0.1   0.398052     0.2294 Not significant
+                  CKGR                1.2   0.252195     0.2020 Not significant
+Central Serowe-Palapye                0.2  -0.200063     0.4078 Not significant
+        Central Tutume                0.2  -0.200063     0.4024 Not significant
+                  Sowa                0.1  -0.212596     0.3942 Not significant
+        Ngwaketse West                0.3  -0.248889     0.3389 Not significant
+          Kweneng East                0.3  -0.309429     0.2594 Not significant
+              Kgatleng                0.2  -0.321450     0.2445 Not significant
+          Kweneng West                0.2  -0.321450     0.2445 Not significant
+     Central Mahalapye                0.2  -0.321450     0.2445 Not significant
+              Gaborone                0.2  -0.321450     0.2060 Not significant
+            South East                0.2  -0.321450     0.2051 Not significant
+               Lobatse                0.1  -0.334725     0.2143 Not significant
+               Jwaneng                0.1  -0.334725     0.1800 Not significant
+       Kgalagadi South                0.4  -0.359120     0.1347 Not significant
+      Central Bobonong                0.2  -0.382143     0.1517 Not significant
+         Selibe Phikwe                0.2  -0.382143     0.1550 Not significant
+              Southern                0.3  -0.430511     0.0462       Cold spot
+            North East                0.2  -0.442836     0.0374       Cold spot
+           Francistown                0.2  -0.442836     0.0431       Cold spot
+              Barolong                0.1  -0.456855     0.0235       Cold spot
+        Central Boteti                0.6  -0.463756     0.0272       Cold spot

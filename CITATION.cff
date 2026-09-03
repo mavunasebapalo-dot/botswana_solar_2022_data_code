@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it using the metadata below."
+type: dataset
+title: "Data and Code: Household Solar Energy Adoption in Botswana (2022 Population and Housing Census)"
+authors:
+  - family-names: Sebapalo
+    given-names: Mavuna
+    affiliation: "Botswana Accountancy College (BAC), School of Information Communication Systems, Gaborone, Botswana"
+    orcid: "https://orcid.org/0009-0003-3602-5525"
+    email: mavunas@bac.ac.bw
+  - family-names: Marumo
+    given-names: Okaile
+    affiliation: "Botswana Accountancy College (BAC), School of Information Communication Systems, Gaborone, Botswana"
+  - family-names: Gobonamang
+    given-names: Tshepo
+    affiliation: "Botswana Accountancy College (BAC), School of Information Communication Systems, Gaborone, Botswana"
+  - family-names: Phalaagae
+    given-names: Pendukeni
+    affiliation: "Botswana Accountancy College (BAC), School of Information Communication Systems, Gaborone, Botswana"
+  - family-names: Sebapalo
+    given-names: Mercy
+    affiliation: "Botswana Accountancy College (BAC), School of Information Communication Systems, Gaborone, Botswana"
+keywords:
+  - solar energy
+  - Botswana
+  - household energy adoption
+  - spatial statistics
+  - Getis-Ord Gi*
+  - Moran's I
+  - machine learning
+  - random forest
+  - cross-validation
+  - census data
+license: CC-BY-4.0
+repository-code: "https://github.com/"
+version: "1.0.0"
+date-released: "2026-09-02"
+abstract: >-
+  District-level dataset and analysis code on household solar energy adoption in Botswana,
+  compiled from the Statistics Botswana 2022 Population and Housing Census report
+  "Utilisation of Green Energy Among Households in Botswana" (2024). Supports two companion
+  manuscripts: a spatial-statistics study of solar-cooking adoption patterns (submitted to the
+  Journal of Energy in Southern Africa) and a machine-learning benchmarking study testing
+  whether Random Forest and Gradient Boosting models outperform a linear baseline on this
+  small administrative dataset (prepared for Energies, MDPI). Data files are released under
+  CC BY 4.0; code files are released under the MIT License (see LICENSE-DATA.txt and
+  LICENSE-CODE.txt).

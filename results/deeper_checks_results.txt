@@ -1,0 +1,14 @@
+Deeper checks: naive baseline, second ensemble method, bootstrap CI, outlier-removed refit
+
+Naive (mean rate x population):   R2=0.676  RMSE=35.86  MAE=26.43
+Random Forest (5-fold, count):    R2=0.526  RMSE=43.40  MAE=25.69
+Linear Regression (5-fold, count):R2=0.806  RMSE=27.80  MAE=18.96
+Gradient Boosting (5-fold, count):R2=0.466  RMSE=46.06  MAE=30.03
+
+Bootstrap 95% CI, RMSE(RF)-RMSE(Linear): [-2.69, 33.25]  (RF worse in 92.6% of resamples)
+Bootstrap 95% CI, R2(Linear)-R2(RF): [-0.055, 0.450]  (Linear better in 92.6% of resamples)
+Bootstrap 95% CI, MAE(RF)-MAE(Linear): [-2.44, 17.06]
+
+Excluding Kweneng East:
+  Random Forest: R2=0.491  RMSE=31.05  MAE=23.16
+  Linear Regression: R2=0.780  RMSE=20.42  MAE=13.12
