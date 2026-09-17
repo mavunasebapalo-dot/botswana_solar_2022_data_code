@@ -4,9 +4,9 @@ This repository contains the district-level dataset, analysis code, intermediate
 underlying two companion manuscripts:
 
 1. **"Spatial Patterns of Household Solar-Cooking Adoption in Botswana: Evidence from the 2022
-   Population and Housing Census"** — submitted to the *Journal of Energy in Southern Africa* (JESA).
+   Population and Housing Census"**.
 2. **"Does Machine Learning Help with Small Administrative Datasets? A Cross-Validated Test on
-   Solar-Adoption Forecasting in Botswana"** — prepared for submission to *Energies* (MDPI).
+   Solar-Adoption Forecasting in Botswana"**.
 
 Both papers use the same underlying 28-district dataset described below, but ask different questions:
 the first asks *where* solar adoption is concentrated and why (spatial statistics, Moran's I, Getis-Ord
