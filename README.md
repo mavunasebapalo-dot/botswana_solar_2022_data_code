@@ -82,7 +82,7 @@ cd code
 # Rebuild the primary dataset (optional — botswana_solar_2022.csv is already included)
 python build_dataset.py
 
-# JESA paper (spatial statistics, binomial GLM, Random Forest vs. linear baseline)
+#  paper (spatial statistics, binomial GLM, Random Forest vs. linear baseline)
 python analyze.py
 python analyze_alluses.py
 python make_figures.py
